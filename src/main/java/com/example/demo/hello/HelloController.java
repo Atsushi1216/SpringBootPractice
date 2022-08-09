@@ -26,7 +26,7 @@ public class HelloController {
 
 		// Modelクラスを使うことで第１引数をキー、第２引数を値として保存する
 		model.addAttribute("sample", str);
-
+		// test用
 		// 値を渡した後の遷移先の指定
 		return "hello/response";
 	}
